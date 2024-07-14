@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="left">
+            <div class="upper-box">
+                <img src="/images/logo.svg" alt="logo" class="logo">
+                <img src="/images/cross.svg" alt="" class="cross">
+                <ul>
+                    <li>
+                        <img class="upper-box-image" src="/images/home.svg" alt="search">
+                        <button>Home</button>
+                    </li>
+                    <li>
+                        <img class="upper-box-image" src="/images/search.svg" alt="search">
+                        <button class="search-button">Search</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="lower-box">
+                <div class="top">
+                    <ul>
+                        <li>
+                            <img class="lower-box-library-image" src="/images/library.svg" alt="search">
+                            <button>Your Library</button>
+                        </li>
+                        <li>
+                            <img class="lower-box-plus-image" src="/images/plus.svg" alt="plus">
+                        </li>
+                    </ul>
+                </div>
+                <div class="library-portion">
+                    <div class="outer" id="songs-list">
+                        <!-- <div class="song-to-play">
+                            <img src="/images/music_icon.svg" alt="icon" class="music-icon">
+                            <h2>Song Name</h2>
+                            <p>Song Address</p>
+                            <img src="/images/play-icon.svg" alt="" class="play-icon">
+                        </div> -->
+                    </div>
+
+
+                </div>
+                <div class="links">
+                    <div class="list">
+                        <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                        <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                        <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                        </div>
+                        <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                        <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                        </div>
+                        <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                    </div>
+                </div>
+                <div class="language">
+                    <img class="lower-box-library-image" src="/images/language.svg" alt="search">
+                    <button>English</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="right">
+            <div class="navbar">
+                <div class="leftside-navbar">
+                    <img src="/images/hamburger.svg" alt="hamburger" class="hamburger">
+                    <img src="/images/leftArrow.svg" alt="arrow">
+                    <img src="/images/rightArrow.svg" alt="arrow">
+                </div>
+                <div class="rightside-navbar">
+                    <button class="sign-up">Sign up</button>
+                    <button class="log-in">Log in</button>
+                </div>
+            </div>
+
+            <h1>Spotify-Playlist</h1>
+            <div class="card-container">
+                <!-- <div class="card">
+                    <img src="https://visualpharm.com/assets/768/Circled Play-595b40b65ba036ed117d3dd6.svg" alt="play-icon" class="play-icon">
+                    <img src="/images/p4.jpg" alt="card" class="poster">
+                    <h2>Hello Play!</h2>
+                </div>                     
+                <div class="card">
+                    <img src="https://visualpharm.com/assets/768/Circled Play-595b40b65ba036ed117d3dd6.svg" alt="play-icon" class="play-icon">
+                    <img src="/images/p4.jpg" alt="card" class="poster">
+                    <h2>Hello Play!</h2>
+                </div>                      -->
+                
+            </div>            
+            <div class="playbar">
+                <div class="song-name"></div>
+                <div class="song-controls">
+                    <img src="/images/previous.svg" alt="" class="song" id="previous">
+                    <img src="/images/play-song.svg" alt="" class="song" id="play">
+                    <img src="/images/next.svg" alt="" class="song" id="next">
+                </div>
+                <div class="playbar-right">
+                    <div>
+                        <img src="/images/volume-icon.svg" alt="vol" class="volume">
+                        <input type="range" name="vol-range" id="vol_range">
+                    </div>
+                    <div class="song-time"></div>
+                </div>
+            </div>
+            <div class="seekbar">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
